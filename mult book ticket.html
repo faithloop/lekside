@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2/11/2021</title>
+   <style>
+       .tic{
+           width:100%;
+           height:60px;
+           color:brown;
+           background-color: grey;
+       }
+       .pin{
+           width:50px;
+           height:20px;
+           color:yellow;
+           background-color: black;
+           display:flex;
+           justify-content: space-between;
+       }
+       #me{
+           width:200px;
+           height:40px;
+           color:yellow;
+           background-color: red;
+       }
+       tr td th{
+             border: 1px solid black;
+         }
+         #her{
+             color:darkorchid;
+             background-color: darkturquoise;
+             width:100px;
+             height:50px;
+             font-size: 20px;
+         }
+         #see{
+             color:pink;
+             background-color: darkgrey;
+             width:100px;
+             height:50px;
+         }
+   </style>
+    
+</head>
+<body>
+    <div class="tic">
+   <h1>booking ticket</h1>
+    </div>
+    <br>
+    <br>
+        <div class="pin">
+            <input type="text" name="input"  id="Name" placeholder="name">
+            <input type="text" name="input" oninput="action()" id="qty" placeholder="Quantity">
+            <input type="text" name="input" oninput="action()" id="amt" placeholder="amount">
+            <input type="text" name="input" id="tot" placeholder="total">
+            <input type="text"  name="input" id="tim" placeholder="time">
+            <!-- <input type="text" name="input" id="qty" placeholder=""> -->
+            <button onclick="ADD()"id="me" >ADD</button>
+            
+           
+        </div>
+   
+</script>
